@@ -1,4 +1,75 @@
 body{
-    background-color: rgb(0, 255, 149);
+    background-color: #ffffff;
+}
+
+
+#MenuSuperior p{
+   
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font: #000000;
+    float: left;
+    margin-left: 250px;
+    margin-top: -20px;
+    margin-right: -211px;
+}
+
+#usu{
+    font: #F45B5B;
+}
+
+#logo{
+    margin-left: 70px;
+    width: 55px;
+    height: 31px;
+    top:-313px;
+    margin-top: 40px;
+}
+
+
+#foto{
+    width: 432px;
+    height: 363px;
+    top: 143px;
+    left: 85px;
+    border-radius: 5px;
+    margin-left: -320px;
+    margin-top:130px;
+    
+}
+
+#inicioSesion{
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    margin-left: 750px;
+    margin-top:-330px;
+}
+
+button{
+    width: 240px;
+    height: 30px;
+    top: 108px;
+    left: 102px;
+    border-radius: 4px solid #007BFF; 
+    background-color: #007BFF;
+    color: #FFFFFF;
+
+}
+
+input{
+    width: 240px;
+    height: 30px;
+    top: -45px;
+    left: 102px;
+    border-radius: 4px;
+
+}
+
+h2{
+    color: #333948;
+}
+h3{
+    margin-left: 140px;
 }
 
