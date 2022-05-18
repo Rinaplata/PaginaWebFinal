@@ -43,22 +43,36 @@ body{
     font-family: 'Inter', sans-serif;
     text-align: left;
     margin-left: 750px;
-    margin-top:-330px;
+    margin-top:-393px;
     
 }
 
+
+
 button{
-    width: 240px;
+    width: 254px;
     height: 30px;
-    top: 108px;
+    top: -45px;
     left: 102px;
-    border-radius: 4px solid #007BFF; 
+    border: 2px solid #007BFF; 
     background-color: #007BFF;
     color: #FFFFFF;
+    border-radius: 3px;
+    margin-top: 25px;
+}
 
+button:hover{
+    background-color: #359ecf; 
+    color: white;
 }
 #rc{
- color: #007BFF;   
+ color: #007BFF;  
+ text-decoration: none; 
+ font-family: 'Inter', sans-serif;
+ font-size: 10px;
+}
+.recuperar{
+
 }
 #btnIngresar{
     margin-top: 14px;
@@ -71,13 +85,60 @@ input{
     top: -45px;
     left: 102px;
     border-radius: 4px;
-
+    margin-top: 20px; 
+    border:2px solid  #99a1a5;    
 }
 
 h2{
     color: #333948;
 }
+
+
 h3{
     margin-left: 140px;
 }
+
+#logos{
+    margin-left: 644px;
+    width: 55px;
+    height: 31px;
+    top: -313px;
+    margin-top: 40px;
+}
+footer{
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    color: #9A9A9A;
+    text-align: center;
+}
+
+.insta{
+    width: 20px;
+    height: 20.25px;
+    margin-top: 194px;
+    left: 405px;
+}
+.in{
+    width: 20px;
+    height: 20.25px;
+    margin-top: 194px;
+    left: 405px;
+}
+
+.tw{
+    width: 20px;
+    height: 20.25px;
+    margin-top: 194px;
+    left: 405px;
+}
+
+.redes{
+    margin-left: 930px;
+    margin-top: -225px;
+}
+
+.final{
+    margin-top: 100px;
+}
+
 
