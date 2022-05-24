@@ -1885,7 +1885,7 @@ textarea.form-control {
 }
 .form-check-input:disabled~.form-check-label,
 .form-check-input[disabled]~.form-check-label {
-    color: #858796
+    color: #000
 }
 .form-check-label {
     margin-bottom: 0
@@ -4407,8 +4407,8 @@ input[type=submit].btn-block {
 .page-item.active .page-link {
     z-index: 3;
     color: #fff;
-    background-color: #4e73df;
-    border-color: #4e73df
+    background-color: #f44336;
+    border-color: #e91e63;
 }
 .page-item.disabled .page-link {
     color: #858796;
@@ -8753,7 +8753,7 @@ button.bg-dark:hover {
     color: #fff!important
 }
 .text-primary {
-    color: #4e73df!important
+    color: #000!important
 }
 a.text-primary:focus,
 a.text-primary:hover {
@@ -9381,9 +9381,7 @@ a:focus {
     font-size: .65rem;
     display: block
 }
-.sidebar .nav-item.active .nav-link {
-    font-weight: 700
-}
+
 .sidebar .nav-item .collapse {
     position: absolute;
     left: calc(6.5rem + 1.5rem / 2);
@@ -9697,7 +9695,7 @@ a:focus {
 .sidebar-dark .nav-item .nav-link:active,
 .sidebar-dark .nav-item .nav-link:focus,
 .sidebar-dark .nav-item .nav-link:hover {
-    color: #000;
+    color: #f44336;
 }
 .sidebar-dark .nav-item .nav-link:active i,
 .sidebar-dark .nav-item .nav-link:focus i,
@@ -9707,9 +9705,7 @@ a:focus {
 .sidebar-dark .nav-item .nav-link[data-toggle=collapse]::after {
     color: rgba(255, 255, 255, .5)
 }
-.sidebar-dark .nav-item.active .nav-link {
-    color: #000
-}
+
 .sidebar-dark .nav-item.active .nav-link i {
     color: #000
 }

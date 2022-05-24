@@ -19,7 +19,7 @@ a {
 #wrapper {
   display: flex;
   #content-wrapper {
-    background-color: $gray-100;
+    background-color: $while-100;
     width: 100%;
     overflow-x: hidden;
     #content {
@@ -45,14 +45,14 @@ a {
   height: 2.75rem;
   text-align: center;
   color: $white;
-  background: fade-out($gray-800, .5);
+  background: fade-out($red-800, .5);
   line-height: 46px;
   &:focus,
   &:hover {
     color: white;
   }
   &:hover {
-    background: $gray-800;
+    background: $red-800;
   }
   i {
     font-weight: 800;
